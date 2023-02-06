@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'theme-switcher';
+  theme: string = "light";
+  pos: string = "";
+  goLight() {
+    this.theme = "light";
+    return (this.pos = "switcher--light");
+  }
+  goDark() {
+    this.theme = "dark";
+    return (this.pos = "switcher--dark");
+  }
 }

@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    [data-theme="light"] {
+        --bg-color : #e0afa0;
+        // --bg-color : #d3d3d3;
+        --txt-color : #0b090a;
+    }
+    [data-theme="dark"] {
+        --bg-color : #161a1d;
+        // --txt-color : #f5f3f4;
+        --txt-color : #e0afa0;
+    }
+}
