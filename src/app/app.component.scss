@@ -1,24 +1,13 @@
-// .container {
-//     &[data-theme="light"] {
-//         --bg-color : #d3d3d3;
-//         --txt-color : #0b090a;
-//     }
-//     &[data-theme="dark"] {
-//         --bg-color : #161a1d;
-//         --txt-color : #f5f3f4;
-//     }
-
-// }
-
 .container {
-    background-color: var(--bg-color);
-    color: var(--txt-color);
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s linear;
 }
 
 .switcher {
@@ -30,7 +19,6 @@
         width: 8rem;
         height: 6rem;
         margin-top: 2rem;
-        // background-color: blue;
     }
     &--slider {
         width: 100%;
@@ -53,7 +41,6 @@
     }
     &--themes {
         width: 100%;
-        // background-color: green;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -76,44 +63,6 @@
         right: 0rem;
     }
 }
-
-// .switcher--box {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-//     align-items: center;
-//     width: 8rem;
-//     position: relative;
-//     border-radius: 2rem;
-//     background-color: #e0afa0;
-//     //background-color: lightgreen;
-//     .switcher--light, .switcher--dark, .switcher--btn {
-//         width: 2rem;
-//         height: 2rem;
-//         border-radius: 2rem;
-//     }
-//     .switcher--light {
-//         background-color: lightblue;
-//     }
-//     .switcher--dark {
-//         //background-color: lightblue;
-//         background: radial-gradient(circle, rgba(70,63,58,1) 0%, rgba(138,129,124,1) 100%);
-//     }
-//     .switcher--btn {
-//         position: absolute;
-//         //background-color: pink;
-//         //background-color: #bcb8b1
-//         background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(188,184,177,1) 100%);
-//     }
-//     .switcher--light {
-//         animation: toLeft 0.5s linear;
-//         left: 0rem;
-//     }
-//     .switcher--dark {
-//         animation: toRight 0.5s linear;
-//         right: 0rem;
-//     }
-// }
 
 @keyframes toRight {
     from {
