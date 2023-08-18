@@ -2,17 +2,17 @@
 
 <h2>Table of contents</h2>
 <ol>
-    <li><a href="section1">What is this?</a></li>
-    <li><a href="section2">Installation and setup</a></li>
-    <li><a href="section3">Project structure</a></li>
-    <li><a href="section4">Configuration</a></li>
-    <li><a href="section5">Development</a></li>
-    <li><a href="section6">Building</a></li>
-    <li><a href="section7">Functionality Overview</a></li>
-    <li><a href="section8">Styling</a></li>
-    <li><a href="section9">Metadata and SEO</a></li>
-    <li><a href="section10">Attribution</a></li>
-    <li><a href="section11">Help</a></li>
+    <li><a href="#section1">What is this?</a></li>
+    <li><a href="#section2">Installation and setup</a></li>
+    <li><a href="#section3">Project structure</a></li>
+    <li><a href="#section4">Configuration</a></li>
+    <li><a href="#section5">Development</a></li>
+    <li><a href="#section6">Building</a></li>
+    <li><a href="#section7">Functionality Overview</a></li>
+    <li><a href="#section8">Styling</a></li>
+    <li><a href="#section9">Metadata and SEO</a></li>
+    <li><a href="#section10">Attribution</a></li>
+    <li><a href="#section11">Help</a></li>
 </ol>
 
 <h2 id="section1">What is this?</h2>
